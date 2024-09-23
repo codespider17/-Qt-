@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../Qt-picture/paywechat.jpg</file>
+        <file>../../Qt-picture/UEFA.jpg</file>
+        <file>../../Qt-picture/Manchester.jpg</file>
+        <file>../../Qt-picture/CR7.jpg</file>
+        <file>../../Qt-picture/CR71.jpg</file>
+        <file>../../Qt-picture/DB.jpg</file>
+        <file>../../Qt-picture/DB2.jpg</file>
+        <file>../../Qt-picture/MB.jpg</file>
+        <file>../../Qt-picture/HL.jpg</file>
+        <file>../../Qt-picture/KEN.jpg</file>
+        <file>../../Qt-picture/CR73.jpg</file>
+        <file>../../Qt-picture/NM.jpg</file>
+        <file>../../Qt-picture/BL.jpg</file>
+        <file>../../Qt-picture/yincao.jpg</file>
+        <file>../../Qt-picture/yingchao.jpg</file>
+        <file>../../Qt-picture/xijia.jpg</file>
+        <file>../../Qt-picture/SLH.jpg</file>
+        <file>../../Qt-picture/WNXS.png</file>
+        <file>../../Qt-picture/MDLQ.jpeg</file>
+    </qresource>
+</RCC>

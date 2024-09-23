@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userPage</class>
+ <widget class="QWidget" name="userPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>773</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>用户界面</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/Qt-picture/CR73.jpg</normaloff>:/Qt-picture/CR73.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(221, 231, 231);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>华文行楷</family>
+     <pointsize>28</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;华文行楷&quot;;</string>
+   </property>
+   <property name="text">
+    <string>欢迎来到用户界面</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tologinPage">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>0</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{border:1px solid #D0D1CF;}
+QPushButton{  font: 12pt &quot;华文行楷&quot;; background-color:#E9ECF2; border-radius:6;}</string>
+   </property>
+   <property name="text">
+    <string>退出登录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buyticket">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>330</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{border:1px solid black;}
+QPushButton{  font: 10pt &quot;华文行楷&quot;; border-radius:6; background-color:#FAF8F9}
+</string>
+   </property>
+   <property name="text">
+    <string>购票</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ticketinfo">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>290</y>
+     <width>330</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{border:1px solid black;}
+QPushButton{  font: 10pt &quot;华文行楷&quot;; border-radius:6; background-color:#FAF8F9}
+</string>
+   </property>
+   <property name="text">
+    <string>订购信息</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="balance">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>330</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{border:1px solid black;}
+QPushButton{  font: 10pt &quot;华文行楷&quot;; border-radius:6; background-color:#FAF8F9}</string>
+   </property>
+   <property name="text">
+    <string>查询余额</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="recharge">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>70</y>
+     <width>325</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{border:1px solid black;}
+QPushButton{  font: 10pt &quot;华文行楷&quot;; border-radius:6; background-color:#FAF8F9}</string>
+   </property>
+   <property name="text">
+    <string>充值</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
